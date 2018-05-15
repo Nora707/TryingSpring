@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: prod
+
+---
+spring:
+    profiles: prod
+datasource:
+  name: devSetup
+  url: jdbc:mysql://localhost:3306/space?useSSL=false
+  username: mn
+  password: admin
+  driver-class: org.h2.Driver
+
